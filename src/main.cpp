@@ -31,7 +31,7 @@ void setAll(){
 }
 
 void setup() {
-  Serial.begin(9600); // Prob should increase the rate
+  Serial.begin(115200); // Prob should increase the rate
   while (!Serial){}
   scanner.begin();
   Wire.begin();
