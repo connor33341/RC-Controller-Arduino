@@ -78,6 +78,7 @@ void loop() {
     dacList[1].value = (uint16_t) doc["rudder"];
     dacList[2].value = (uint16_t) doc["aileron"];
     dacList[3].value = (uint16_t) doc["elevator"];
+    //delay(100);
   }
   //setNormalized(dacThrottle,dacList[0].value);
   setAll();
